@@ -1,3 +1,4 @@
+Hola este es un cambio de Emanuel 
 ## GUIA CONCEPTOS BASICOS DEL JAVASCRIPT
 
 
@@ -18,7 +19,8 @@ A continuacion estaremos desarrollando el paso a paso para conectar el resposito
         comandos 
         1. git init-> inicializar mi repositorio local 
         1.1 git status-> me muestra el estado de mis archivos 
-        2. git add-> se usa para agregar cambios al entorm¿no de preparacion 
+        2. git add .-> se usa para agregar cambios al entorm¿no de preparacion 
+        3. git commit-> nos permite poner un mensaje pero ademas significa que sus archivos estan listos para enviarse al repositorio remoto 
 
 
 
