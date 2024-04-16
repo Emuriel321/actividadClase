@@ -1,12 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conceptos basicos js</title>
+
+    <!-- el archivo de js de la clase pasada-->
+    <script src="scripts/conceptosBasicos.js" defer></script>
+
+    <!-- el archivo js de la clase de hoy 10 04 2024-->
+    <script src="/scripts/practicaConceptos.js" defer type="text/javaScript"></script>
 </head>
+
+
 <body>
-    <h1>Conceptos basicos</h1>
-    <h2>De javaScript</h2>
+
+    <header>
+        <h1>Conceptos basicos</h1>
+        <h2>De javaScript</h2>
+
+    </header>
+    <main>
+        <p> Implementar los conceptos de sitios web dinamicos con javaScript</p>
+        <ol>
+            <li> MANEJO DEL DON </li>
+            <li> CONDICIONALES </li>
+            <li> CICLOS </li>
+        </ol>
+        <!--seccion para el primer ejercicio ->ejercicio de DON Y CONDICIONALES-->
+        <section>
+
+            <h3> ejercicio de DON Y CONDICIONALES </h3>
+            <!--que es lo que quiero de este ejercicio-->
+            <p>preguntar al usuario su edad y mostrar en pantalla si es mayor o menor de edad </p>
+            <div>
+
+                <!--input ->> entrada ->> es algo que me suministra el usuario ej: nomre, 
+                correo conttaseña etc -->
+                <!--    label-> es una etiqueta para el input-->
+                <label>¿cual es tu edad?</label>
+                <input type="number" id="edadInput" placeholder="Ingrese aqui su edad">
+                <!--para darle funcionalidad a ese boton debo llamar un evento onclick->
+                     darle  claick al boton -->
+                     <!--evento es una accion del usuario-->
+
+                <button onclick="verificarEdad()">verificar edad </button>
+
+            <span id="mensaje"></span> 
+            </div>
+
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p>Todos los derechos reservados -> creado Emanuel Muriel </p>
+    </footer>
+
 </body>
+
 </html>
