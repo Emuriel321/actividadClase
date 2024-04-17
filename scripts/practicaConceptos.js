@@ -9,8 +9,23 @@ console.log("hola esta es la actividad de hoy  10-04-24");
 
 //document-> me accede a mi html 
 // getElementById -> me trae un elemneto en partcular por su identificador unico 
-// dentro de loa parentesis debo poner el mismo id qiue puse en mi html  
+// dentro de loa parentesis debo poner el mismo id qiue puse en mi html 
 
+//mi elemento 1 
 const edadInput = document.getElementById("edadInput");
 console.log(edadInput);
+
+//mi elemneto 2 
+//const btn = document.getElementById("boton");
+//console.log(btn); 
+
+function verificarEdad(){
+
+    console.log("hola");
+}
+    
+
+
+
+
 
