@@ -1,6 +1,5 @@
 // 1. siempre se debe hacer -> verificar   que si este conectado con html 
-
-console.log("hola esta es la actividad de hoy  10-04-24");
+console.log("esta es la actidaad de hoy")
 
 
 //2 traer los elementos que necesitan de su html->> los que tienen id 
@@ -18,12 +17,32 @@ console.log(edadInput);
 //mi elemneto 2 
 //const btn = document.getElementById("boton");
 //console.log(btn); 
+const mensaje =document.getElementById("mensajeEdad");
+console.log(mensaje); 
 
 function verificarEdad(){
 
-    console.log("hola");
+    console.log("entro a mi funcion a verificar edad");
+    let edad = edadInput.value; 
+    console.log(edad); 
+
+
+
+    //utilizar condicionales 
+
+   if(edad>= 18 ){
+    console.log("eres mayor de edad")
+    mensaje.textContent = "eres mayor de edad"
+
+
+   } else{ 
+    console.log("eres memor de edad")
+
+    mensaje.textContent = "eres menor de edad"
+   }
+
 }
-    
+
 
 
 

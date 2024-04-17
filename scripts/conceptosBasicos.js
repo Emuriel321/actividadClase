@@ -1,8 +1,6 @@
 // esta es la manera de jacer comentarios en js
 // consola.log> la forma de enviar menajes a la consola del navegador. 
-
-
-console.log("hola mundo, aca estoy para continuar");
+    console.log("hola mundo, aca estoy para continuar");
 
 
 // conceptos basicos en js
